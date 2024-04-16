@@ -10,7 +10,7 @@ puts "----------"
 
 puts "First store name before update: #{@store1.name}"
 
-@store1.name = "Whistler"
+@store1.name = "Delta"
 @store1.save
 
 puts "First store name after update: #{@store1.name}"
